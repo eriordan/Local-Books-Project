@@ -1,0 +1,38 @@
+{
+  "name": "books",
+  "version": "1.0.0",
+  "description": "local book store",
+  "main": "server.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "cookie-parser": "^1.4.1",
+    "errorhandler": "^1.4.3",
+    "express": "^4.13.4",
+    "express-handlebars": "^3.0.0",
+    "method-override": "^2.3.5",
+    "morgan": "^1.7.0",
+    "mongodb": "*",
+    "mongoose": "*",
+    "md5": "*",
+    "async": "*",
+    "underscore": "*",
+	"moment":"*",
+	"multer":"*", 
+	"express-generator":"*"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "proxyquire": "^1.7.9",
+    "sinon": "^1.17.4",
+    "sinon-chai": "^2.8.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "elaine Riordan",
+  "license": "ISC"
+}

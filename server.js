@@ -6,7 +6,7 @@ var express = require('express'),
 	app.set('views', __dirname + '/views');
 	app = config(app);
 
-	mongoose.connect('mongodb://localhost/localbooks');
+	mongoose.connect('mongodb://lbooks:localbookstore2016.mlab.com:23442/localbooks');
 	mongoose.connection.on('open',function(){
 		console.log('Mongoose connected.');
 	})
